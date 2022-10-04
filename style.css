@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+  font-size: 14px;
+}
+
+.inner {
+  width: 960px;
+  max-width: 86.4%;
+}
+
+/*header*/
+header {
+  padding: 40px;
+  text-align: center;
+}
+
+/*header*/
