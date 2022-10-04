@@ -3,23 +3,52 @@
 body {
   font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
   font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.025em;
+  min-width: 320px;
 }
 
 .inner {
-  width: 960px;
-  max-width: 86.4%;
+  max-width: 960px;
+  width: 86.4%;
   margin-left: auto;
   margin-right: auto;
 }
 
 /*header*/
 header {
-  padding: 40px;
+  padding: 40px 0;
   text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 /*header*/
 
 .mainvisual {
-  background-image: url(./images/bg_main.png) cover;
+  padding: 240px 0 80px;
+  background: url(./images/bg_main.png) no-repeat center center/cover;
+}
+
+.maintext {
+  display: block;
+  background-color: #fff;
+  width: 343px;
+  height: 266px;
+  padding: 40px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0 92px 30px 2px;
+}
+
+.maintitle {
+  font-size: 36px;
+  font-family: "YuMincho";
 }
